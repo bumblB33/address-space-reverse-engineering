@@ -1,0 +1,40 @@
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and results (do not commit collected samples or analysis output)
+results/
+*.parquet
+*.feather
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build
+build/
+dist/
+
+# Local notes that shouldn't be public
+notes/
+scratch/
+private/
